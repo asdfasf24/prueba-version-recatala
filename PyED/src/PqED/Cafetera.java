@@ -40,6 +40,10 @@ public class Cafetera
      */
     String devTipo()
     {
+        System.out.println("Escrito el lunes");
+        System.out.println("Después de hacer la siesta");
+        System.out.println("¡Qué gran placer!");
+
         return this.tipo;
    //     "hola".charAt(nivel);
     }
@@ -66,5 +70,23 @@ public class Cafetera
             this.tipo = pTipo;
         }
 
+        
     }
+    
+    
+    /**
+     *
+     * @param pCadena
+     * @return
+     */
+    public String devCadMejorada(String pCadena)
+    {
+        String rdo;
+        rdo = pCadena;
+
+        rdo = pCadena.trim();
+        return rdo;
+
+    }
+        
 }
