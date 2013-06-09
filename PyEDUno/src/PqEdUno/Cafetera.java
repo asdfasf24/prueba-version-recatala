@@ -44,6 +44,7 @@ public class Cafetera
         System.out.println("Después de hacer la siesta");
         System.out.println("¡Qué gran placer!");
         System.out.println("La línea se está escribiendo ahora: 01:01.");
+        System.out.println("La línea la escribe recatalaEDED ahora 02:02");
 
         return this.tipo;
    //     "hola".charAt(nivel);
